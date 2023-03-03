@@ -1,4 +1,4 @@
-from config import SUDO_USERS
+from config import SUDO_USERS, CLONER_TOKEN
 SUDO_USERS = SUDO_USERS
 import asyncio
 from pytgcalls import idle
@@ -22,7 +22,7 @@ from Zaid.main import bot, call_py, Test
 
 API_ID = 6435225
 API_HASH = "4e984ea35f854762dcde906dce426c2d"
-TOKEN = "5107223907:AAFV78v04uSnuyiyDQYhL_t9Oj1SlvbZJKg"
+TOKEN = CLONER_TOKEN
 
 users = Client("ZPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 
