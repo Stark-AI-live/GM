@@ -1,5 +1,5 @@
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
-MONGO_DB = "An Mongo Db #Needed"
+MONGO_DB = "mongodb://mongo:9bL5onMGRwQXV3mndYif@containers-us-west-160.railway.app:5770"
 mongo_dbb = MongoClient(MONGO_DB)
 
 db_x = mongo_dbb["ZaidSpamBot"]
